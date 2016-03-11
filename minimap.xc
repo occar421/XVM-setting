@@ -41,6 +41,9 @@
       // false - не устанавливать увеличенную миникарту по центру экрана.
       "centered": false
     },
+    // Map size label
+    // Поле размера карты
+    "mapSize": ${"minimapMapSize.xc":"mapSize"},
     // Minimap labels.
     // Надписи на миникарте.
     "labels": ${"minimapLabels.xc":"labels"},
