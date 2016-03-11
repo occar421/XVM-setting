@@ -44,6 +44,15 @@
     // Map size label
     // Поле размера карты
     "mapSize": ${"minimapMapSize.xc":"mapSize"},
+    // Use standard circles
+    // Использовать стандартные круги
+    "useStandardCircles": false,
+    // Use standard labels
+    // Использовать стандартные надписи
+    "useStandardLabels": false,
+    // Use standard lines
+    // Использовать стандартные линии
+    "useStandardLines": false,
     // Minimap labels.
     // Надписи на миникарте.
     "labels": ${"minimapLabels.xc":"labels"},
@@ -52,20 +61,6 @@
     "circles": ${"minimapCircles.xc":"circles"},
     // Minimap lines.
     // Линии на миникарте.
-    "lines": ${"minimapLines.xc":"lines"},
-    // Square of the maximum units appearance (1000 m).
-    // Квадрат границы максимальной отрисовки юнитов (1000 м).
-    "square" : {
-      "enabled": true,
-      // Show square if using artillery\SPG vehicle.
-      // Показывать ли квадрат в случае артиллерии.
-      "artilleryEnabled": true,
-      // Толщина линии.
-      "thickness": 0.7,
-      // Прозрачность.
-      "alpha": 40,
-      // Цвет.
-      "color": "0xFFFFFF"
-    }
+    "lines": ${"minimapLines.xc":"lines"}
   }
 }
