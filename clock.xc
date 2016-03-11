@@ -72,7 +72,7 @@
     //
     // Clock format.
     // Формат часов.
-    "format": "<textformat tabstops='[80]' leading='-39'><font face='$FieldFont'><font size='15'>{{D%02d}} {{MM}} {{Y}}</font><tab><font size='36'>{{h%02d}}:{{m%02d}}</font>\n<textformat rightMargin='87'>{{WW}}</font></textformat></font></textformat>",
+    "format": "<textformat tabstops='[80]' leading='-39'><font size='15'>{{Y}} 年 {{MM}} {{D}} 日</font><tab><font size='36'>{{h%02d}}:{{m%02d}}</font>\n<textformat rightMargin='87'>{{WW}}</font></textformat></font></textformat>",
     // Shadow.
     // Тень.
     "shadow": {
