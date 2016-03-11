@@ -15,7 +15,7 @@
     "enableFreeXpLocker": false,
     // true - Use credits instead of gold as default currency for ammo and equipment
     // true - Использовать кредиты, а не золото как валюту по умолчанию для снарядов и снаряжения
-    "defaultBoughtForCredits": false,
+    "defaultBoughtForCredits": true,
     // true - Hide price button in tech tree
     // true - Прятать кнопку с ценой в дереве исследований
     "hidePricesInTechTree": false,
@@ -42,7 +42,7 @@
     "enableEquipAutoReturn": false,
     // true - Make vehicle not ready for battle if low ammo
     // true - Сделать машину не готовой к битве если мало снарядов
-    "blockVehicleIfLowAmmo": false,
+    "blockVehicleIfLowAmmo": true,
     // Below this percentage, ammo is low. (0 - 100)
     // Ниже этого процента, снарядов считается мало. (0 - 100)
     "lowAmmoPercentage": 20,
